@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: dodgerblue;
+        }
+
+        form {
+            margin: 0 auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: dodgerblue;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+
+        span {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="" method="get">
+        <label for="text">Text:</label>
+        <input type="text" id="text" placeholder="Enter text">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password">
+
+        <label for="number">Number:</label>
+        <input type="tel" id="number" placeholder="Enter number">
+
+        <label for="range">Range:</label>
+        <input type="range" id="range" placeholder="Enter range">
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" placeholder="Enter color">
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
